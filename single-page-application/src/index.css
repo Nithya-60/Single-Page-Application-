@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50;
+}
+
+.card {
+  @apply bg-white rounded-2xl p-4 shadow-md;
+}
+
+.sidebar-scroll {
+  max-height: calc(100vh - 64px);
+  overflow-y: auto;
+}
